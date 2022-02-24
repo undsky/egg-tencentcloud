@@ -1,19 +1,14 @@
-<!--
- * @Author: 姜彦汐
- * @Date: 2021-04-22 09:09:24
- * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-04-22 09:53:38
- * @Description: 
- * Contact: jiangyanxi@live.com
- * @FilePath: /egg-tencentcloud/README.md
--->
 # egg-tencentcloud
+
+> Egg plugin for tencentcloud
+
+
 ## 安装
 
 ```bash
-$ npm i egg-tencentcloud --save
+$ npm i egg-tencentcloud2 --save
 # or
-$ yarn add egg-tencentcloud
+$ yarn add egg-tencentcloud2
 ```
 
 ## 依赖说明
@@ -28,9 +23,6 @@ egg 2.x | egg 1.x
 
 [tencentcloud-sdk-nodejs](https://github.com/tencentcloud/tencentcloud-sdk-nodejs)
 
-[cos-nodejs-sdk-v5](https://github.com/tencentyun/cos-nodejs-sdk-v5)
-
-[tls-sig-api-v2](https://github.com/tencentyun/tls-sig-api-v2-node)
 
 ## 开启插件
 
@@ -50,6 +42,12 @@ config.tencentcloud = {
 
 };
 ```
+
+## 示例
+
+## [查看更多项目](https://www.undsky.com)
+
+
 ## License
 
 [MIT](LICENSE)

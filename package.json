@@ -1,7 +1,7 @@
 {
-  "name": "egg-tencentcloud",
-  "version": "3.0.0",
-  "description": "",
+  "name": "egg-tencentcloud2",
+  "version": "1.0.0",
+  "description": "Egg plugin for tencentcloud",
   "eggPlugin": {
     "name": "tencentcloud"
   },
@@ -13,10 +13,7 @@
     "腾讯云"
   ],
   "dependencies": {
-    "bytenode": "^1.3.4",
-    "cos-nodejs-sdk-v5": "^2.11.3",
-    "tencentcloud-sdk-nodejs": "^4.0.247",
-    "tls-sig-api-v2": "^1.0.2"
+    "tencentcloud-sdk-nodejs": "^4.0.247"
   },
   "devDependencies": {
     "autod": "^3.1.1",
@@ -51,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-tencentcloud.git"
+    "url": "git+https://github.com/undsky/egg-tencentcloud.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/undsky/egg-tencentcloud/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-tencentcloud#readme",
-  "author": "",
+  "homepage": "https://github.com/undsky/egg-tencentcloud#readme",
+  "author": "姜彦汐 https://www.undsky.com",
   "license": "MIT"
 }
